@@ -1,0 +1,26 @@
+{
+  "name": "ios-qa-automation",
+  "private": true,
+  "version": "0.0.1",
+  "description": "iOS QA Automation",
+  "repository": "https://github.com/Tictrac/ios-qa-automation.git",
+  "license": "MIT",
+  "dependencies": {
+    "appium": "^1.10.1",
+    "deviceconsole": "^1.0.1",
+    "ios-deploy": "^1.9.0",
+    "mocha": "^4.1.0",
+    "nodejs": "0.0.0",
+    "wd": "^1.10.3",
+    "webdriveragent": "^1.1.8",
+    "xcode": "^1.1.0",
+    "appium-ios-driver": "^3.0.1",	
+    "appium-xcuitest-driver": "^2.105.1"
+  },
+  "scripts": {
+    "start": "appium"
+  },
+  "devDependencies": {
+    "macaca-cli": "^2.1.10"
+  }
+}
